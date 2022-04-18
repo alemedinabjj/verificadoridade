@@ -1,0 +1,29 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 145, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+}
+header {
+    color: white;
+    text-align: center;
+}
+section {
+    background: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.586);
+}
+@media (max-width: 1500px){
+    section {
+        width: 90%;
+    }
+}
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
